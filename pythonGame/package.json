@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "pythongame",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -11,14 +11,15 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "expo": "~51.0.24",
+    "axios": "^1.7.3",
+    "expo": "~51.0.26",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.3",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "^2.18.1",
     "react-native-paper": "^5.12.5",
-    "react-native-gesture-handler": "~2.16.1",
-    "react-native-reanimated": "~3.10.1",
-    "react-native-screens": "3.31.1"
+    "react-native-reanimated": "^3.15.0",
+    "react-native-screens": "^3.34.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

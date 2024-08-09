@@ -6,7 +6,7 @@ import datetime
 app = Flask(__name__)
 
 # URL-encoded the '@' symbol in the password
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Bepanda2024%40@localhost/flask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:Franklin123@flask.cl2w22su0ndz.eu-west-3.rds.amazonaws.com/flask'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -88,4 +88,4 @@ def delete_article(id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='192.168.1.41', port=3000, debug=True)
